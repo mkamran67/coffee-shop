@@ -11,12 +11,12 @@ const Home = () => {
         style={{ zIndex: -1 }}
       />
       <div className='pl-10'>
-        <h2 className='text-5xl text-left leading-loose'>
-          We bring flavor to the table
+        <h2 className='text-5xl text-left leading-normal'>
+          WE BRING FLAVOR TO THE TABLE
         </h2>
         <br />
-        <h3 className='pl-10 text-5xl text-right leading-loose '>
-          From the land of the Rising Sun
+        <h3 className='pl-10 text-5xl text-right leading-normal '>
+          FROM THE LAND OF THE RISING SUN
         </h3>
       </div>
       <div className='bg-gray-100 rounded-md shadow-lg p-4'>
@@ -38,13 +38,13 @@ const Home = () => {
             placeholder='Username'
           />
           <input
-            className='text-lg focus:border-light-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none  text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-10 mt-3 hover:border-gray-400 focus:border-none'
+            className='text-lg focus:border-light-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none  text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-10 my-3 hover:border-gray-400 focus:border-none'
             type='text'
             aria-label='Password'
             placeholder='Password'
           />
           <button
-            className='rounded-md text-lg bg-yellow-200 border hover:border-blue-300 hover:border-2 my-2 px-16 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300'
+            className='rounded-md text-lg bg-yellow-200 border hover:border-blue-300 hover:border-2 mt-4 mb-2 px-16 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300'
             onClick={(e) => e.preventDefault()}
           >
             Login
