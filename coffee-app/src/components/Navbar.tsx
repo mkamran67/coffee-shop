@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 
 // Icons
 import UserIcon from '../SVGS/person-outline.svg';
-import CoffeeCupIcon from '../SVGS/Cup.svg';
 import SearchIcon from '../SVGS/search-outline.svg';
 import CartIcon from '../SVGS/cart-outline.svg';
 import CupIcon from '../SVGS/cafe-outline.svg';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between items-center bg-gray-200 max-w-screen'>
+    <div className='flex justify-between items-center bg-gray-100 max-w-screen'>
       {/* ---------------- Logo ---------------- */}
       <Link to='/' className='ml-3 p-2'>
         <img
